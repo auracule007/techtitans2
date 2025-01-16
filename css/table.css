@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+    background-color: greenyellow;
+    text-align: center;
+    border: 5px dashed red;
+    text-transform: capitalize;
+    border-collapse: collapse;
+}
+
+table thead th {
+    background: purple;
+    padding: 1rem;
+    color: white;
+}
+
+table tbody td {
+    /* background: peru; */
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+table tbody tr:nth-child(even){
+    background-color: red;
+}
+table tbody tr:nth-child(odd) {
+    background-color: brown;
+}

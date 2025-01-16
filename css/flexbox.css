@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* flex-direction: column-reverse; */
+}
+
+.box-container .box{
+    background-color: plum;
+    padding: 1rem;
+    /* margin-bottom: .5rem; */
+    flex-basis: 20%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}

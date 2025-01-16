@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cform {
+    width: 100%;
+    background-color: red;
+    padding: 1rem;
+}
+.cform form {
+    background: yellow;
+    padding: 1rem;
+}
+.cform form div{
+    margin-bottom: 1rem;
+}
+.cform form label {
+    display: block;
+    text-transform: capitalize;
+}
+.cform form input[type="email"], 
+.cform form input[type="password"], 
+.cform form input[type="url"], 
+.cform form input[type="color"], 
+.cform form input[type="file"], 
+.cform form input[type="range"], 
+.cform form input[type="date"], 
+.cform form input[type="number"], 
+.cform form input[type="datetime-local"], 
+.cform form select, 
+.cform form input[type="text"] {
+    padding: 0.7rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+
+.cform form button,
+.cform form input:focus{
+    border: none;
+    outline: none;
+}
+
+.cform form textarea:focus{
+    border: none;
+    outline: none;
+}
+
+.cform form textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.cform form button{
+    background-color: black;
+    color: white;
+    width: 20%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: ease-in-out .5s;
+}
+.cform form button:hover{
+    background: greenyellow;
+    color: red;
+    cursor: pointer;
+    transition: ease-in-out .5s;
+    /* transform: scaleX(150%); */
+    transform: translateX(50px);
+}
+
+/* media queries  */
+
+@media(max-width: 1400px) {
+    .cform {
+        background-color: green;
+    }
+    .cform form {
+        background: purple;
+    }
+}
+@media(max-width: 1200px) {
+    .cform {
+        background-color: indigo;
+    }
+    .cform form {
+        background: navajowhite;
+    }
+}
+@media(max-width: 992px) {
+    .cform {
+        background-color: navy;
+    }
+    .cform form {
+        background: brown;
+    }
+}
+@media(max-width: 767px) {
+    .cform {
+        background-color: lemonchiffon;
+    }
+    .cform form {
+        background: lime;
+    }
+}
+@media(max-width: 575px) {
+    .cform {
+        background-color: magenta;
+    }
+    .cform form {
+        background: maroon;
+    }
+    .cform form button:hover{
+        background: yellow;
+        color: purple;
+    }
+}

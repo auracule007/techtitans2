@@ -1,0 +1,37 @@
+/* tags */
+h1 {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* class selectors */
+.laja {
+    background: yellow;
+    color: red;
+}
+
+/* id selectors */
+#samuel {
+    background-color: green;
+    color: white;
+    /* position: fixed; */
+    /* position: static; */
+    /* position: relative; */
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    right: 30%;
+    /* bottom: 10; */
+}
+.new_sam {
+    position: relative;
+}
+ul{
+    display: grid;
+}
+
+ul li {
+    /* display: inline; */
+    /* display: flex; */
+    display: block;
+}
